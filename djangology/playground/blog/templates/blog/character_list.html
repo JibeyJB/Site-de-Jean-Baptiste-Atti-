@@ -1,0 +1,26 @@
+{% extends 'blog/base.html' %}
+{% block content %}
+<div class="center">
+<div class="row">
+{% for characters in character %}    
+        
+            <div class="column">
+            
+                <div class="card bg-danger text-white">
+                    <img class="card-img-top" src="{{ characters.photo }}" alt="{{ characters.title }}" width="" height="200">
+                    <div class="card-body">
+                        <h3 class="card-title">{{ characters.code }}</h3>
+                         <a href="{% url 'character_detail' id_character=characters.id_character %}" class="stretched-link"></a>
+                    </div>
+                </div>
+            
+            
+            </div>
+        </ul>
+        {% endfor %}
+</div>
+
+   
+
+            
+            {% endblock %}

@@ -1,0 +1,6 @@
+centre_pokemon (taille = 2)si blesse 
+Arene (taille =5) si normal
+pokeball (taille =1) si fatigué 
+baie (taille = 3) si affamé
+
+normal > fatigué > affamé > blessé

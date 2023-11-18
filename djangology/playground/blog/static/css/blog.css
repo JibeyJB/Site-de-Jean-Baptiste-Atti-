@@ -1,0 +1,112 @@
+h1 a, h2 a { color: #ffffff; font-family: 'Roboto'; }
+
+body { 
+    padding-left: 15px; 
+    color: #ffffff;
+} 
+
+.page-header {
+    background-color: #504b09;
+    margin-top: 0;
+    margin-bottom: 40px;
+    padding: 20px 20px 20px 40px;
+}
+ 
+.page-header h1,
+.page-header h1 a,
+.page-header h1 a:visited,
+.page-header h1 a:active {
+    color: #ffffff;
+    font-size: 36pt;
+    text-decoration: none;
+}
+ 
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Lobster', cursive;
+}
+ 
+.date {
+    color: #828282;
+}
+ 
+.save {
+    float: right;
+}
+ 
+.post-form textarea,
+.post-form input {
+    width: 100%;
+}
+ 
+.top-menu,
+.top-menu:hover,
+.top-menu:visited {
+    color: #ffffff;
+    float: right;
+    font-size: 26pt;
+    margin-right: 20px;
+}
+ 
+.post {
+    margin-bottom: 70px;
+}
+ 
+.post h2 a,
+.post h2 a:visited {
+    color: #ffffff;
+}
+ 
+.post > .date,
+.post > .actions {
+    float: right;
+}
+ 
+.btn-default,
+.btn-default:visited {
+    color: #a29b09;
+    background: none;
+    border-color: #a29b09;
+}
+ 
+.btn-default:hover {
+    color: #FFFFFF;
+    background-color: #a29b09;
+}
+
+
+.page-header:img {
+    width: 150px;
+
+}
+
+body {
+    background-color: rgb(167, 137, 8);
+}
+
+
+
+card bg-danger text-white{
+    width:100px;
+    height: 100px;
+}
+
+
+.column {
+    float: left;
+    width: 33%;
+    padding: 0 10 20 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
